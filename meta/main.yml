@@ -8,6 +8,7 @@ galaxy_info:
   company: "Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
   min_ansible_version: 2.4
+  role_name: "elasticsearch"
   platforms:
     - name: EL
       versions:
