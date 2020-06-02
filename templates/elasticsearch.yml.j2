@@ -35,7 +35,11 @@ path.data: {{ elasticsearch_path_data }}
 #
 # Path to log files:
 #
+{% if elasticsearch_path_log %}
+path.logs: {{ elasticsearch_path_log }}
+{% else %}
 path.logs: /var/log/elasticsearch
+{% endif %}
 #
 # ----------------------------------- Memory -----------------------------------
 #
